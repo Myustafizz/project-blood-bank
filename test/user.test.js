@@ -23,7 +23,7 @@ describe('post test suit', () => {
         chai
             .request(server)
             .post('/posts')
-            .send({Hospital_name: 'Yasin', Hospital_Location: 'B+', blood_stock: 'B+', Hospital_contact_number: '01713479389', Hospital_Branch: '21', Hospital_fee: 'Central road'});
+            .send({Hospital_name: 'IBN SINA', Hospital_Location: 'JIGATOLA', blood_stock: 'B+', Hospital_contact_number: '01713479389', Hospital_Branch: 'DHANMONDI', Hospital_fee: 'Central road'});
 
             console.log(res.body);
             post = res.body._id;
